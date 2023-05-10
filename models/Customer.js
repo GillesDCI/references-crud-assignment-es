@@ -7,6 +7,6 @@ const customerSchema = new Schema({
 })
 
 
-const Customer = model('Customer', customerSchema);
+const Customer = model('customer', customerSchema);
 
 export default Customer;
