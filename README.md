@@ -27,12 +27,12 @@ Open inside folder `models` the `Customer.js` file. Modify this file in such way
 You can add in more fields if you like. 
 
 #### Task 2. Creating our Order Schema  
-Open inside folder `models` the `Order.js` file. Modify this file in such way that the orderSchema has a `order_description`, `productname`, `price`, `vat` and `total_incl_vat` and a `customer` field. Make sure the customer field is a reference to our Customer Schema. 
+Open inside folder `models` the `Order.js` file. Modify this file in such way that the orderSchema has a `orderDescription`, `productName`, `price`, `vat` and `totalInclVat` and a `customer` field. Make sure the customer field is a reference to our Customer Schema. 
 
 Example of a reference: 
 
 ````javascript
-   user:{type: Schema.Types.ObjectId, ref:'User'}
+   user:{type: Schema.Types.ObjectId, ref:'user'}
 ````
 
 
