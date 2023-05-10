@@ -19,7 +19,7 @@ Set up the `server.js` and configure everything accordingly. You will notice som
 + Get it up and running 
 
 ### 2. Thinking out our Schemas 
-First we need to setup our database schemas, this application needs two schemas a `CustomerSchema` and an `OrderSchema`. For each order being made we would like to track which customer made this order. We would like to do this by reference. 
+First we need to setup our database schemas, this application needs two schemas a `customerSchema` and an `orderSchema`. For each order being made we would like to track which customer made this order. We would like to do this by reference. 
 
 
 #### Task 1. Creating our Customer Schema  
